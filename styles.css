@@ -1,0 +1,36 @@
+body{
+	background-color: #00ECB9;
+}
+
+h1{
+	color: #396;
+	margin: 40px 0px 20px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#countdown-timer{
+	color: white;
+	/* We dont need margin auto, because the div is already 100% wide. We need to center the stuff in the div, not the div itself. Answer: Text-align: center */
+	text-align: center;
+}
+
+#countdown-timer > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00BF96;
+	/* Make sure these divs behave like blocks, but are on the same line. Options? Inline-block */
+	display: inline-block;
+}
+
+span{
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #00816A;
+	display: inline-block;
+	font-size: 28px;
+}
+
+.small-text{
+	font-size: 28px;
+}
